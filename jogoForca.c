@@ -18,7 +18,6 @@ void chutar(char chutes[], int* tentativas)
     (*tentativas)++;
 }
 
-
 int jaChutou(char chutes[], int tentativas, char letraDigitada)
 {
     int achou = 0;
@@ -30,10 +29,8 @@ int jaChutou(char chutes[], int tentativas, char letraDigitada)
             break;
         }
     }
-
     return achou;
 }
-
 
 int main()
 {
