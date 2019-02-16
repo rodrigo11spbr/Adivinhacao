@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "forca.h"
 
 void banner()
 {
@@ -59,7 +60,6 @@ int main()
                 printf("_ ");
             }       
         }
-
         chutar(chutes, &tentativas);
         
     }
